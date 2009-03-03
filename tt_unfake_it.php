@@ -50,7 +50,7 @@ add_action ('tt_unfake_it/tt_unfake_it.php', 'tt_unfake_it_install');
 
 function fake_tt_url($long_url) { 
 
-	$unfake_api = "http://unfake.it/?a=api&url=";
+	$unfake_api = "http://unfake.it/?a=api&X-Client=wpv1&url=";
 	$api_handle = fopen ($unfake_api . $long_url, "r");
 	$fake_url = fread ($api_handle, 8192);
 	fclose ($api_handle);
