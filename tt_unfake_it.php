@@ -46,7 +46,7 @@ function tt_unfake_it_install() {
 
 }
 
-add_action ('tt_unfake_it/tt_unfake_it.php', 'tt_unfake_it_install');
+add_action ('url-shortener-for-twitter-tools/tt_unfake_it.php', 'tt_unfake_it_install');
 
 function fake_tt_url($long_url) { 
 

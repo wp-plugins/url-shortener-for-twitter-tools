@@ -17,8 +17,8 @@ You need Twitter Tools v1.6 (or above) for this plugin to work!
 == Installation ==
 
 1. Download the plugin archive and expand it (you've likely already done this).
-2. Create a folder named `tt_unfake_it` in your `wp-contents/plugins/` directory. (This should happen automatically, once you unzipped the archive; just make sure, the location is correct.)
-3. Put the `tt_unfake_it.php` file into the `wp-content/plugins/tt_unfake_it/` directory. (This should happen automatically, once you unzipped the archive; just make sure, the location is correct.)
+2. Create a folder named `url-shortener-for-twitter-tools` in your `wp-contents/plugins/` directory. (This should happen automatically, once you unzipped the archive; just make sure, the location is correct.)
+3. Put the `tt_unfake_it.php` file into the `wp-content/plugins/url-shortener-for-twitter-tools/` directory. (This should happen automatically, once you unzipped the archive; just make sure, the location is correct.)
 4. Go to the Plugins page in your WordPress Administration area and click 'Activate' for 'unfake.it URL shortener for Twitter Tools'.
 
 == Configuration ==
