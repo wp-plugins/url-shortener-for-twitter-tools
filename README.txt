@@ -37,8 +37,8 @@ No! Unless you use Twitter Tools, simply nothing will happen.
 
 == Screenshots ==
 
-1. you won't have to shorten your post URL by yourself, as you could do on the unfake.it website: uf_screenshot.jpg
-2. to make this plugin work without any further configuration, just make sure, you enabled twittering your posts in the Twitter Tools Options: tt_enable.jpg (WP administration: `Settings`, `Twitter Tools`)
+1. you won't have to shorten your post URL by yourself, as you could do on the unfake.it website: screenshot-1.jpg
+2. to make this plugin work without any further configuration, just make sure, you enabled twittering your posts in the Twitter Tools Options: screenshot-2.jpg (WP administration: `Settings`, `Twitter Tools`)
 
 == Author ==
 
