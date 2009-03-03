@@ -1,4 +1,4 @@
-=== unfake.it URL shortener Twitter Tools ===
+=== unfake.it URL shortener for Twitter Tools ===
 Tags: twitter, tweet, post, digest, notify, unfake, unfake.it, shorten, url
 Donate link: http://www.thomasgericke.de/
 Contributors: thomasgericke
