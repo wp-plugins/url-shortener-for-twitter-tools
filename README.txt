@@ -4,11 +4,13 @@ Donate link: http://www.thomasgericke.de/
 Contributors: thomasgericke
 Requires at least: 2.3
 Tested up to: 2.7.1
-Stable tag: 1.0
+Stable tag: 1.2
 
 == Description ==
 
 unfake.it URL shortener Plugin for Twitter Tools works as a WordPress plugin and (hopefully) gets an URL as inbound parameter, shortens it by using unfake.it API and sends back the shortened URL as outbound return string.
+
+You may also save your shortened URLs on facebook using our facebook application. If configured so, your WordPress blog will take you to facebook. Your blog post (including a thumbnailed screenshot of your post) will be displayed on your profile page as well as in your friends newsfeeds. 
 
 == Details ==
 
@@ -23,7 +25,14 @@ You need Twitter Tools v1.6 (or above) for this plugin to work!
 
 == Configuration ==
 
-There is nothing to be configured since your Twitter configuration will happen by/with your Twitter Tools plugin.
+As of version 1.2, you may choose whether or not to save your shortened blog URLs including a thumbnailed screenshot on facebook.
+
+1. go to `Settings` section of your WordPress' admin menu
+2. select `unfake.it URL shortener`
+3. select `yes` or `no`
+4. press the submit button
+
+Default is `yes`. No worries, this plugin won't ask for or store your facebook login information.
 
 == Frequently Asked Questions ==
 
@@ -39,6 +48,15 @@ No! Unless you use Twitter Tools, simply nothing will happen.
 
 1. you won't have to shorten your post URL by yourself, as you could do on the unfake.it website: screenshot-1.jpg
 2. to make this plugin work without any further configuration, just make sure, you enabled twittering your posts in the Twitter Tools Options: screenshot-2.jpg (WP administration: `Settings`, `Twitter Tools`)
+3. to disallow the plugin adding URLs to facebook, simply turn this feature off: screenshot-3.jpg
+
+== Changelog ==
+
+= 1.2 =
+
+* settings page added
+* database tables introduced
+* facebook integration added
 
 == Author ==
 
