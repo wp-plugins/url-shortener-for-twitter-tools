@@ -3,7 +3,7 @@
 Plugin Name: unfake.it URL shortener for Twitter Tools
 Plugin URI: http://unfake.it/help.php#twitter-tools
 Description: Takes URLs to your new blog posts and shortens them befor sending to Twitter. This plugin totally depends on Twitter Tools v1.6 and above since it works as a filter. You may also save your shortened URLs on facebook using our facebook application. If configured so, your WordPress blog will take you to facebook.
-Version: 1.2
+Version: 1.3
 Author: Thomas Gericke
 Author URI: http://www.thomasgericke.de/
 */
@@ -102,11 +102,10 @@ function uf_menu() {
 	echo "No worries, we won't save your facebook login data!";
 	echo "<BR /><BR />";
 	echo "Please keep in mind:";
-	echo "<UL>";
-	echo "<LI>unfake.it's URL shortener depends on Twitter Tools</LI>";
-	echo "<LI>you need to allow popups for your own WordPress blog, because ";
-	echo "it takes you to facebook</LI>";
-	echo "</UL>";
+	echo "<BR />";
+	echo "1. unfake.it's URL shortener depends on Twitter Tools<BR />";
+	echo "2. you need to allow popups for your own WordPress blog, because ";
+	echo "it takes you to facebook";
 	echo "<BR /><BR />";
 
 	$results = $wpdb->get_results("SELECT `use_facebook` FROM " . $wpdb->unfake);
@@ -130,6 +129,19 @@ function uf_menu() {
 	echo "<BR />";
 	echo "<INPUT TYPE='submit' VALUE='update'>";
 	echo "<BR /><BR />";
+	echo "Dear friend, who's using this piece of software: I'm doing this for free, ";
+	echo "so if you like this plugin, please help me to keep on doing it by at least ";
+	echo "flattring me at this plugin's ";
+	echo "<A HREF='http://www.thomasgericke.de/v4/interactive/blog/projects/wordpress-plugin-for-unfake-it/' TARGET=_blank>project page</A>. ";
+	echo "<A HREF='http://www.thomasgericke.de/v4/interactive/blog/projects/wordpress-plugin-for-unfake-it/' TARGET=_blank><IMG SRC='http://unfake.it/images/flattr_this.png' BORDER=0></A><BR /><BR />";
+	echo "As of August 2010, <tt>unfake.it</tt> needs to show commercials after ";
+	echo "hitting a shortened URL. This is very discreet and does not even harm ";
+	echo "your website. This had to be introduced to refinance server and traffic ";
+	echo "costs, since the author is running <tt>unfake.it</tt> for free.<BR /><BR />";
+	echo "If you still plan to use <tt>unfake.it</tt> as your URL shortener and don't ";
+	echo "want to show commercials to those you share your short URL with, please get ";
+	echo "in touch with the author mentioned below. We'll find a way!<BR /><BR />";
+	echo "Thank you!<BR /><BR />";
 	echo "<A HREF='http://unfake.it/' TARGET=_BLANK>unfake.it URL shortener</A> by ";
 	echo "<A HREF='http://www.thomasgericke.de' TARGET=_BLANK>Thomas Gericke</A>";
 

@@ -3,8 +3,8 @@ Tags: twitter, tweet, post, digest, notify, unfake, unfake.it, shorten, url
 Donate link: http://www.thomasgericke.de/
 Contributors: thomasgericke
 Requires at least: 2.3
-Tested up to: 2.7.1
-Stable tag: 1.2
+Tested up to: 3.0.1
+Stable tag: 1.3
 
 == Description ==
 
@@ -44,6 +44,10 @@ Your Twitter account ain't configured for and within this plugin. As mentioned a
 
 No! Unless you use Twitter Tools, simply nothing will happen.
 
+= I like this plugin but I don't want commercials to show up for my shortened URLs. What can I do? =
+
+Get in touch with me (the author)! We'll find a way.
+
 == Screenshots ==
 
 1. you won't have to shorten your post URL by yourself, as you could do on the unfake.it website: screenshot-1.jpg
@@ -51,6 +55,12 @@ No! Unless you use Twitter Tools, simply nothing will happen.
 3. to disallow the plugin adding URLs to facebook, simply turn this feature off: screenshot-3.jpg
 
 == Changelog ==
+
+= 1.3 =
+
+* admin page rewritten
+* flattr introduced
+* begging for donations introduced
 
 = 1.2 =
 
