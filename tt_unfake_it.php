@@ -3,7 +3,7 @@
 Plugin Name: unfake.it URL shortener for Twitter Tools
 Plugin URI: http://unfake.it/help.php#twitter-tools
 Description: Takes URLs to your new blog posts and shortens them befor sending to Twitter. This plugin totally depends on Twitter Tools v1.6 and above since it works as a filter. You may also save your shortened URLs on facebook using our facebook application. If configured so, your WordPress blog will take you to facebook.
-Version: 1.3
+Version: 1.4
 Author: Thomas Gericke
 Author URI: http://www.thomasgericke.de/
 */
@@ -159,7 +159,7 @@ add_action("admin_menu", "uf_admin_actions");
 
 function fake_tt_url($long_url) { 
 
-	$unfake_api = "http://unfake.it/?a=api&X-Client=wpv1.2&url=";
+	$unfake_api = "http://unfake.it/?a=api&X-Client=wpv1.4&url=";
 	$api_handle = fopen ($unfake_api . $long_url, "r");
 	$fake_url = fread ($api_handle, 8192);
 	fclose ($api_handle);

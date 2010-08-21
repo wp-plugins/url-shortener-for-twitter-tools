@@ -1,10 +1,10 @@
 === unfake.it URL shortener for Twitter Tools ===
 Tags: twitter, tweet, post, digest, notify, unfake, unfake.it, shorten, url
-Donate link: http://www.thomasgericke.de/
+Donate link: http://www.thomasgericke.de/v4/interactive/blog/projects/wordpress-plugin-for-unfake-it/
 Contributors: thomasgericke
 Requires at least: 2.3
 Tested up to: 3.0.1
-Stable tag: 1.3
+Stable tag: 1.4
 
 == Description ==
 
@@ -44,6 +44,10 @@ Your Twitter account ain't configured for and within this plugin. As mentioned a
 
 No! Unless you use Twitter Tools, simply nothing will happen.
 
+= Are donations welcome? =
+
+Sure. Donations keep me doin' what I'm doin'. Visit http://www.thomasgericke.de/v4/interactive/blog/projects/wordpress-plugin-for-unfake-it/ to flattr me and send any micropayment. Not required, but appreciated.
+
 = I like this plugin but I don't want commercials to show up for my shortened URLs. What can I do? =
 
 Get in touch with me (the author)! We'll find a way.
@@ -55,6 +59,10 @@ Get in touch with me (the author)! We'll find a way.
 3. to disallow the plugin adding URLs to facebook, simply turn this feature off: screenshot-3.jpg
 
 == Changelog ==
+
+= 1.4 =
+
+* minor correction in API call
 
 = 1.3 =
 
@@ -70,7 +78,7 @@ Get in touch with me (the author)! We'll find a way.
 
 == Author ==
 
-2009, Thomas Gericke
+2009, 2010, Thomas Gericke
 
 http://unfake.it/
 http://www.thomasgericke.de/
